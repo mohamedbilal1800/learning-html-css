@@ -2,39 +2,46 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Index Page</title>
+	<title>HTML Page</title>
+    <link rel="stylesheet" href="styles.css">
 	<style>
 		body {
-			background-image: url("../html_css/images/wp6942356-white-minimalist-wallpapers.png");
-			background-size: cover;
-		}
+			background-image: url('../html_css/images/wp6942356-white-minimalist-wallpapers.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+		    }
 	</style>
 </head>
 <body>
-	<img src="../html_css/images/code-development-html-web-development-wallpaper-preview.jpg">
+	<img class="log" src="../html_css/images/code-development-html-web-development-wallpaper-preview.jpg" alt="image of html code">
     <br>
     <br>
-    <h2>HYPER TEXT MARKUP LANGUAGE</h2>
+    <div class="box"><h1>HYPER TEXT MARKUP LANGUAGE</h1></div>
     <br>
-    <h3>Unordered List of elements in HTML</h3>
-	<ul>
+    <div class="box"><h3>Unordered List of elements in HTML</h3></div>
+	<div class="listbox">
+    <ul>
 		<li>html</li>
 		<li>head</li>
 		<li>title</li>
         <li>style</li>
 		<li>body</li>
 	</ul>
-    <h3>ordered List of HTML Frameworks</h3>
-	<ol>
+    </div>
+    <div class="box"><h3>ordered List of HTML Frameworks</h3></div>
+	<div class="listbox">
+    <ol type="1">
 		    <li>Bootstrap</li>
 		    <li>Foundation</li>
 		    <li>Sencha Touch</li>
             <li>Ionic</li>
 		    <li>Onsen UI</li>
 	</ol>
+    </div>
 
 	<br></br>
-    <h3>Books For Learning HTML</h3>
+    <div class="box"><h3>Books For Learning HTML</h3></div>
 	<table>
         <tr>
             <th>Book Name</th>
@@ -59,8 +66,8 @@
     </table>
 
 	<br>
-    <h3>THE HISTORY OF HTML</h3>
-	<p>HTML, or Hypertext Markup Language, is the standard markup language used to create web pages.<br> 
+    <div class="box"><h3>THE HISTORY OF HTML</h3></div>
+	<div class="parabox"><p>HTML, or Hypertext Markup Language, is the standard markup language used to create web pages.<br> 
         It was first developed in the late 1980s by a physicist named Tim Berners-Lee, who was working <br>
         at CERN, the European Organization for Nuclear Research. Berners-Lee created the first web <br>
         browser and web server, as well as the first HTML specification, which was released in 1991.</p>
@@ -72,10 +79,13 @@
         and JavaScript to create dynamic and interactive web pages. Its history reflects the evolution <br>
         of the web, and its ongoing development ensures that it will continue to play a critical role <br>
         in shaping the future of the internet.</p>
-
-    <h3>Links</h3>
+    </div>
+    <br>
+    
+    <div class="box"><h3>Links</h3></div>
+    <div class="linkbox">
 	<a href="https://www.mind-empowered.org/">LINK1 -- mind-empowered.org</a><br>
 	<a href="https://mkbilalh.wordpress.com">LINK2 -- my portfolio</a>
-
+    </div>
 </body>
 </html>
